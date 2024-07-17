@@ -41,6 +41,11 @@ terraform apply -auto-approve
 docker --version
 ```
 
+5. Delete the resources that you've created
+``` bash
+terraform destroy
+```
+
 ## Takeaway
 - Develop a strong understanding of writing basic HCL scripts by leveraging comprehensive documentation and examples provided.
 - Gain insights into the use of template files, which are essentially shell scripts, to automate the installation and configuration of software on your virtual machine.
